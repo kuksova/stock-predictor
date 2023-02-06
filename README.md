@@ -7,8 +7,10 @@ data -> model -> API -> deployment
 
 To run the predictions:
 
+```
 curl \
 --header "Content-Type: application/json" \
 --request POST \
 --data '{"ticker":"MSFT", "days":7}' \
 http://54.200.241.2:8000/predict
+```
